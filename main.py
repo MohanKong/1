@@ -59,7 +59,7 @@ for ite1 in range(config.N_block):
     
     # detector网络
     detector_net.train()
-    predict_output = det_train.det_train(det_inputs, detector_net, detector_optimizer, detector_loss_fn)
+    det_train.det_train(det_inputs, detector_net, detector_optimizer, detector_loss_fn)
 
     # clean 指标（评估模式，不更新参数）
     detector_net.eval()

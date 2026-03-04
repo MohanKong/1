@@ -17,7 +17,7 @@ N_user = 5
 
 # （建议新增，但也可先不加）
 N_symbol = 50
-Mod = "QPSK"
+Mod = 4
 precoder_type = "identity"   # 预留：identity/mmse/isa
 complex_repr = "ri"          # "ri" 或 "complex"
 #标准差偏移量
